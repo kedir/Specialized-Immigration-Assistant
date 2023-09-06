@@ -30,7 +30,7 @@
 <br />
 <div align="center">
 
-  <h3 align="center"> Specialized-Immigration-Assistant-LLM-Chatbot
+  <h3 align="center"> Specialized-Immigration-Assistant
 
 </h3>
 
@@ -50,17 +50,13 @@ The Specialized Immigration Assistant LLM is an innovative application that leve
 <!--PROJECT Objective-->
 ## Key Features:
 
-<p align="justify">
+<strong>Training with Legal Articles:</strong> We utilized a comprehensive collection of legal articles sourced from a prominent Law group to train and fine-tune the LLAMA2 Large Language Model.
 
-    <strong>Training with Legal Articles:</strong> We utilized a comprehensive collection of legal articles sourced from a prominent Law group to train and fine-tune the LLAMA2 Large Language Model.
+<strong>Customized Immigration Assistant Model:</strong> We tailored LLAMA2's capabilities to create a specialized Immigration Assistant model that understands and generates accurate legal language for immigration-related queries.
 
-    <strong>Customized Immigration Assistant Model:</strong> We tailored LLAMA2's capabilities to create a specialized Immigration Assistant model that understands and generates accurate legal language for immigration-related queries.
+<strong>Improved Accuracy:</strong> By fine-tuning the model on a rich dataset of legal nuances and terminology, we achieved improved accuracy and context-specific responses.
 
-    <strong>Improved Accuracy:</strong> By fine-tuning the model on a rich dataset of legal nuances and terminology, we achieved improved accuracy and context-specific responses.
-
-    <strong>Real-time Immigration Information:</strong> We are actively working on enabling users to access reliable and up-to-date legal information through an AI interface, contributing to more informed decision-making in US immigration matters.
-
-</p>
+<strong>Real-time Immigration Information:</strong> We are actively working on enabling users to access reliable and up-to-date legal information through an AI interface, contributing to more informed decision-making in US immigration matters.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,23 +83,6 @@ The Specialized Immigration Assistant LLM is an innovative application that leve
 <p align="justify">
 
 * The dataset provided by private Legal firm and is not included in the GitHub repository for data privacy reasons.
-
-</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!--Named Entity Recognation-->
-## Named Entity Recognition
-
-<p align="justify">
-
-* NER is a widely used NLP technique that recognizes entities contained in a piece of text, commonly things like people organization, locations etc. This project also includes an NER model implemented using [BERT](https://arxiv.org/abs/1810.04805) and huggingface PyTorch library to quickly and efficiently fine-tune the BERT model to do the state of the art performance in Named Entity Recognition. The transformer package provides a BertForTokenClassification class for token-level predictions. BertForTokenClassification is a fine-tuning model that wraps BertModel and adds a token-level classifier on top of the BertModel. The token-level classifier is a linear layer that takes as input the last hidden state of the sequence. 
-
-* Below is an example of an input and output of our named entity model, served with a streamlit app.
-
-![alt text](https://github.com/kedir/GLG--Topic-Modeling-and-Document-Clustering/blob/main/doc/ner_example.png)
 
 </p>
 
