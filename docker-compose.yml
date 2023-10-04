@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  backendservice:
+    build:
+      context: ./backend  # Specify the directory containing Dockerfile1
+      dockerfile: Dockerfile  # Specify Dockerfile1
+    ports:
+      - "8000:8000"  # Map host port 8000 to container port 8000
+    volumes:
+      - ./backend/app:/app  # Mount the app/ directory into the container
+
+  streamlit-app:
+    build:
+      context: ./frontend  # Specify the directory containing Dockerfile2
+      dockerfile: Dockerfile  # Specify Dockerfile2
+    ports:
+      - "8501:8501"  # Map host port 8501 to container port 8501
+    volumes:
+      - ./fronend/app:/app  # Mount the fronend/app/ directory into the container
